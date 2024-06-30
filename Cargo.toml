@@ -1,0 +1,16 @@
+[package]
+name = "cargo-prisma"
+version = "0.6.11"
+edition = "2021"
+authors = ["Jian Chen <admin@chensoft.com>"]
+description = "The Unofficial Prisma CLI for Rust"
+documentation = "https://docs.rs/cargo-prisma"
+readme = "README.md"
+repository = "https://github.com/chensoft/cargo-prisma"
+license = "MIT"
+keywords = ["cargo-subcommand", "prisma", "prisma-cli"]
+categories = ["command-line-utilities", "development-tools::cargo-plugins"]
+
+[dependencies]
+duct = "0.13"
+prisma-client-rust-cli = { git = "https://github.com/Brendonovich/prisma-client-rust", tag = "0.6.11" }
